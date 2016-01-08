@@ -9,9 +9,9 @@ Xcode 7.1
 
 Podfile
 
-platform :ios, '6.1'
-pod 'SDWebImage', '~>3.7'
-pod 'UIActivityIndicator-for-SDWebImage'
+- platform :ios, '6.1'
+- pod 'SDWebImage', '~>3.7'
+- pod 'UIActivityIndicator-for-SDWebImage'
 
 -----------
 
