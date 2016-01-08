@@ -5,7 +5,7 @@ iPhone app with Modern Architecture.
 Development environment: 
 Xcode 7.1
 
-Installation
+# Installation
 
 Podfile
 
