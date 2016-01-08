@@ -7,20 +7,20 @@ Xcode 7.1
 
 -----------
 
-# ** Class hierarchy **
+# Class hierarchy
 -----------
 
 
-# ** Information flow **
+# Information flow
 -----------
 - Below the diagram represent how the news data(ItemBase class) comes from the server to the specific UI such as ItemDetailView class.
 
-![Information flow](doc/program/ShowMeTheMovie_information_flow.pdf) 
+![Information flow](https://github.com/4dot/ShowMeTheMovie.git/doc/program/ShowMeTheMovie_information_flow.pdf) 
 
 
 
 
-# ** DataCacheManager **
+# DataCacheManager
 -----------
 - Below the workflow represent how the DataCacheManager works. A URL request is used to make a hash key for the dump file name using MD5. 
 When the app get back data from the server, DataCacheManager dumps the response data to the file.
