@@ -1,6 +1,0 @@
-[submodule "Pods/SDWebImage"]
-	path = Pods/SDWebImage
-	url = https://github.com/auibrian/SDWebImage.git
-[submodule "Pods/UIActivityIndicator-for-SDWebImage"]
-	path = Pods/UIActivityIndicator-for-SDWebImage
-	url = https://github.com/JJSaccolo/UIActivityIndicator-for-SDWebImage.git
