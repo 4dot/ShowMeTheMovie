@@ -14,16 +14,10 @@ Podfile
 - pod 'SDWebImage', '~>3.7'
 - pod 'UIActivityIndicator-for-SDWebImage'
 
------------
-
 # Class hierarchy
------------
-
 
 # Information flow
------------
-
 
 # DataCacheManager
------------
+
 - Below the workflow represent how the DataCacheManager works. A URL request is used to make a hash key for the dump file name using MD5. 
