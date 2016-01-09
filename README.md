@@ -10,14 +10,14 @@ Xcode 7.1
 
 Podfile
 
-- platform :ios, '6.1'
-- pod 'SDWebImage', '~>3.7'
-- pod 'UIActivityIndicator-for-SDWebImage'
+    platform :ios, '6.1'
+    pod 'SDWebImage', '~>3.7'
+    pod 'UIActivityIndicator-for-SDWebImage'
 
 # Class hierarchy
 
 # Information flow
-![Information flow](https://github.com/4dot/ShowMeTheMovie/doc/program/ShowMeTheMovie_information_flow.pdf)
+![ScreenShot](https://github.com/4dot/ShowMeTheMovie/doc/program/ShowMeTheMovie_information_flow.pdf)
 
 # DataCacheManager
 
