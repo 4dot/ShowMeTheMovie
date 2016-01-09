@@ -17,7 +17,7 @@ Podfile
 # Class hierarchy
 
 # Information flow
-![ScreenShot](https://github.com/4dot/ShowMeTheMovie.git/doc/program/ShowMeTheMovie_information_flow.pdf)
+![Information flow](https://github.com/4dot/ShowMeTheMovie/doc/program/ShowMeTheMovie_information_flow.pdf)
 
 # DataCacheManager
 
