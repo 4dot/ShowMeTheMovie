@@ -2,9 +2,7 @@
 
 - iPhone app with Modern Architecture.
 - This is iOS sample application that Using Apple Advanced UICollectionView library.
-
-Development environment: 
-Xcode 7.1
+- Development environment: Xcode 7.1
 
 # Installation
 
