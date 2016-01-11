@@ -19,4 +19,4 @@ Podfile
 
 # DataCacheManager
 
-- Below the workflow represent how the DataCacheManager works. A URL request is used to make a hash key for the dump file name using MD5. 
+- The Information flow represent how the DataCacheManager works. A URL request is used to make a hash key for the dump file name using MD5. 
