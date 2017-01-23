@@ -12,23 +12,22 @@
 #import "RealServer.h"
 #import "DataAccessManager.h"
 
-@interface ShowMeTheMovieAppDelegate ()
 
-@end
 
+//
+// ShowMeTheMovieAppDelegate
+//
 @implementation ShowMeTheMovieAppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
-    // Override point for customization after application launch.
-
     // Change Server Type
     // FakeServer is using with local json file for test.
     // RealServer is using real data from server.
     
-    //FakeServer* server = [[FakeServer alloc] init];
-    RealServer* server = [[RealServer alloc] init];
+    FakeServer* server = [[FakeServer alloc] init];
+    //RealServer* server = [[RealServer alloc] init];
     
     [DataAccessManager manager].server = server;
     
@@ -49,6 +48,8 @@
                                                                    style:UIBarButtonItemStylePlain
                                                                   target:nil
                                                                   action:nil];
+    
+    // add back button
     [backButton setTitleTextAttributes:naviAttributes forState:UIControlStateNormal];
     navigationController.navigationBar.topItem.backBarButtonItem = backButton;
     

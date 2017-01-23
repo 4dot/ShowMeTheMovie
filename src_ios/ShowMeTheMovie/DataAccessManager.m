@@ -18,6 +18,7 @@
 
 @implementation DataAccessManager
 
+// Singelton
 + (DataAccessManager *)manager
 {
     static DataAccessManager *manager = nil;
@@ -29,6 +30,7 @@
     return manager;
 }
 
+// Fetch Datas
 - (void)fetchItemListWithCompletionHandler:(nullable NSDictionary*)param completionHandler:(void(^ _Nonnull)(NSDictionary * _Nullable items, NSError * _Nullable error))handler
 {
     if(!self.server) {

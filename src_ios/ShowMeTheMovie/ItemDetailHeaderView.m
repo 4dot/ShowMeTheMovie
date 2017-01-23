@@ -9,7 +9,7 @@
 #import "ItemDetailHeaderView.h"
 #import "ItemBase.h"
 #import "DataAccessManager.h"
-#import <UIActivityIndicator-for-SDWebImage/UIImageView+UIActivityIndicatorForSDWebImage.h>
+#import "UIImageView+UIActivityIndicatorForSDWebImage.h"
 
 @interface ItemDetailHeaderView()
 

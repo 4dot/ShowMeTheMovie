@@ -27,6 +27,7 @@
 
 - (void)updateWithDictionaryRepresentation:(NSDictionary * _Nonnull)dictionaryRepresentation;
 
+// Create Item
 + (nonnull instancetype)itemWithDictionaryRepresentation:(NSDictionary * _Nonnull)dictionaryRepresentation;
 
 @end

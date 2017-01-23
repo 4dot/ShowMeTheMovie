@@ -11,7 +11,7 @@
 #import "ItemBase.h"
 #import "UICollectionView+Helpers.h"
 #import "ItemViewCell.h"
-#import <UIActivityIndicator-for-SDWebImage/UIImageView+UIActivityIndicatorForSDWebImage.h>
+#import "UIImageView+UIActivityIndicatorForSDWebImage.h"
 
 
 @implementation ItemListDataSource

@@ -21,7 +21,7 @@ static NSMapTable *AllItemsTable()
     return allItems;
 }
 
-+ (nonnull instancetype)itemWithDictionaryRepresentation:(NSDictionary * _Nonnull)dictionaryRepresentation
++ (nonnull instancetype)itemWithDictionaryRepresentation:(NSDictionary * _Nonnull) dictionaryRepresentation
 {
     NSMapTable *allItems = AllItemsTable();
     
@@ -37,20 +37,20 @@ static NSMapTable *AllItemsTable()
 
 #pragma mark - Public methods
 
-- (void)updateWithDictionaryRepresentation:(NSDictionary * _Nonnull)dictionaryRepresentation
+- (void)updateWithDictionaryRepresentation:(NSDictionary * _Nonnull) dictionaryRepresentation
 {
-    self.uniqueID = dictionaryRepresentation[@"id"];
-    self.oriTitle = dictionaryRepresentation[@"original_title"];
-    self.title = dictionaryRepresentation[@"title"];
-    self.releaseDate = dictionaryRepresentation[@"release_date"];
-    self.overView = dictionaryRepresentation[@"overview"];
-    self.popularity = dictionaryRepresentation[@"popularity"];
-    self.video = dictionaryRepresentation[@"video"];
-    self.adult = dictionaryRepresentation[@"adult"];
-    self.voteAverage = dictionaryRepresentation[@"vote_average"];
-    self.voteCount = dictionaryRepresentation[@"vote_count"];
-    self.backdropImgURL = dictionaryRepresentation[@"backdrop_path"];
-    self.posterImgURL = dictionaryRepresentation[@"poster_path"];
+    _uniqueID = dictionaryRepresentation[@"id"];
+    _oriTitle = dictionaryRepresentation[@"original_title"];
+    _title = dictionaryRepresentation[@"title"];
+    _releaseDate = dictionaryRepresentation[@"release_date"];
+    _overView = dictionaryRepresentation[@"overview"];
+    _popularity = dictionaryRepresentation[@"popularity"];
+    _video = dictionaryRepresentation[@"video"];
+    _adult = dictionaryRepresentation[@"adult"];
+    _voteAverage = dictionaryRepresentation[@"vote_average"];
+    _voteCount = dictionaryRepresentation[@"vote_count"];
+    _backdropImgURL = dictionaryRepresentation[@"backdrop_path"];
+    _posterImgURL = dictionaryRepresentation[@"poster_path"];
 }
 
 @end
