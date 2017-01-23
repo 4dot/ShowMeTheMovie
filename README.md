@@ -22,6 +22,7 @@ Connect to Server
     FakeServer* server = [[FakeServer alloc] init];
     //RealServer* server = [[RealServer alloc] init];
 ```
+- You can take API key if you need connect to real server. https://www.themoviedb.org/documentation/api
 
 # Class hierarchy
 
